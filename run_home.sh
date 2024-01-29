@@ -1,0 +1,1 @@
+docker run -it -p 8888:8888 --privileged -v /dev/bus/usb:/dev/bus/usb -v "$(pwd)":/app -v /home/walter/git/ai_tools/classification:/data -w /app walterwangimagr/py38-tf2-gpu-edgetpu jupyter lab --port 8888
