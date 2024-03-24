@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 *.jpg
+*.h5
+*.tflite
+*.bayer
 __pycache__/
 *.py[cod]
 *$py.class

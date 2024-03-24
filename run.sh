@@ -1,1 +1,1 @@
-docker run -it -p 9999:9999 --privileged -v /dev/bus/usb:/dev/bus/usb -v "$(pwd)":/app -v /home/walter/nas_cv/walter_stuff/raw_data:/data -w /app walterwangimagr/py38-tf2-gpu-edgetpu jupyter lab --port 9999
+docker run -it -p 9999:9999 --privileged -v /dev/bus/usb:/dev/bus/usb -v "$(pwd)":/app -v /home/walter/nas_cv/walter_stuff/raw_data:/data -v /home/walter/big_daddy/imagr_instore_v3/edgetpu_3view:/classifier_data -w /app walterwangimagr/tf_multigpus_edgetpu jupyter lab --port 9999
